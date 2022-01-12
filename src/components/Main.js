@@ -7,7 +7,7 @@ function Main(props) {
 	const [people, setPeople] = useState([]);
 
 	// const URL = "http://localhost:3001/people/"
-	const URL = 'https://phoenix-api-app.herokuapp.com/people/';
+	const URL = 'https://phoenix-backend1.herokuapp.com/people/';
 	// retrieve all the people
 	const getPeople = async () => {
 		const response = await fetch(URL);
